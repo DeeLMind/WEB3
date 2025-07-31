@@ -1,0 +1,9 @@
+[submodule "ETH/helloworld/hello_foundry/lib/forge-std"]
+	path = ETH/helloworld/hello_foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "ETH/helloworld/helloworld/lib/forge-std"]
+	path = ETH/helloworld/helloworld/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "DeFiHackLabs"]
+	path = DeFiHackLabs
+	url = https://github.com/SunWeb3Sec/DeFiHackLabs

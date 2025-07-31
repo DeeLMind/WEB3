@@ -1,0 +1,57 @@
+DIGEST 3c5c45ea05b62627e64e6b5522732e7a
+Fwallet
+R56:58 Coq.Init.Nat <> <> lib
+rec 127:132 <> Wallet
+proj 141:147 <> balance
+R151:153 Coq.Init.Datatypes <> nat ind
+def 265:272 <> withdraw
+R279:284 wallet <> Wallet rec
+binder 275:275 <> w:3
+R292:294 Coq.Init.Datatypes <> nat ind
+binder 288:288 <> n:4
+R299:304 Coq.Init.Datatypes <> option ind
+R306:311 wallet <> Wallet rec
+R321:323 Coq.Init.Nat <> leb def
+R325:325 wallet <> n:4 var
+R328:334 wallet <> balance proj
+R336:336 wallet <> w:3 var
+R397:400 Coq.Init.Datatypes <> None constr
+R348:351 Coq.Init.Datatypes <> Some constr
+R356:362 wallet <> balance proj
+R356:362 wallet <> balance proj
+R356:362 wallet <> balance proj
+R367:367 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R377:380 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R368:374 wallet <> balance proj
+R376:376 wallet <> w:3 var
+R381:381 wallet <> n:4 var
+prf 499:528 <> withdraw_preserves_nonnegative
+R546:551 wallet <> Wallet rec
+binder 542:542 <> w:5
+R559:561 Coq.Init.Datatypes <> nat ind
+binder 555:555 <> n:6
+R569:574 wallet <> Wallet rec
+binder 565:566 <> w':7
+R604:611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R594:596 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R582:589 wallet <> withdraw def
+R591:591 wallet <> w:5 var
+R593:593 wallet <> n:6 var
+R597:600 Coq.Init.Datatypes <> Some constr
+R602:603 wallet <> w':7 var
+R612:618 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R620:621 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 619:619 <> b:8
+R632:634 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R622:628 wallet <> balance proj
+R630:631 wallet <> w':7 var
+R635:635 wallet <> b:8 var
+R673:680 wallet <> withdraw def
+R700:702 Coq.Init.Nat <> leb def
+R707:713 wallet <> balance proj
+R700:702 Coq.Init.Nat <> leb def
+R707:713 wallet <> balance proj
+R796:798 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R787:793 wallet <> balance proj
+R796:798 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R787:793 wallet <> balance proj
