@@ -1,1 +1,3 @@
-./safe
+node_modules
+Cargo.lock
+target/

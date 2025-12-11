@@ -1,9 +1,26 @@
 # Solana
 
+## DAPP
+
+* npm i @solana/web3.js
+
 ## 环境安装
 
 * https://solana.com/zh/docs/intro/installation
 * https://docs.anza.xyz/
+
+* solana
+* avm
+* anchor
+* surfpool
+* rust
+* agave-install
+
+## 节点部署
+
+* https://docs.anza.xyz/
+* 源码编译
+
 
 ##  Solana
 
