@@ -1,5 +1,8 @@
 # [WEB3](https://deelmind.com)
 
+* https://bilibili.deelmind.com
+* https://youtube.com/DeeLMind
+
 ## No Contract
 
 | 链名                   | 特点                                             | 是否支持智能合约               |
