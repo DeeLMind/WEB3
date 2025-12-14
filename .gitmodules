@@ -7,3 +7,6 @@
 [submodule "DeFiHackLabs"]
 	path = DeFiHackLabs
 	url = https://github.com/SunWeb3Sec/DeFiHackLabs
+[submodule "SOL/program-examples"]
+	path = SOL/program-examples
+	url = https://github.com/solana-developers/program-examples
