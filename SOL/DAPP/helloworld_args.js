@@ -13,11 +13,19 @@ const payer = Keypair.fromSecretKey(
 // 3️⃣ 部署好的 Program ID
 const programId = new PublicKey("DYjGmmcQEkyzCoKgUFQRKwbMByvbDu4FnkpcM3MsyrSW");
 
-// 4️⃣ 构造调用指令
+// 4️⃣ 构造要传入的账户（示例可以传自己钱包）
+const accounts = [
+  { pubkey: payer.publicKey, isSigner: true, isWritable: true }
+];
+
+// 5️⃣ 构造 instruction_data（字符可打印）
+const data = Buffer.from("DeeLMind", "utf-8");
+
+// 6️⃣ 构造指令
 const instruction = new TransactionInstruction({
   programId,
-  keys: [],           // 没有账户
-  data: Buffer.alloc(0), // 空 instruction_data
+  keys: accounts,
+  data: data,
 });
 
 // 5️⃣ 构造交易
@@ -38,3 +46,5 @@ async function main() {
 }
 
 main();
+
+// https://solscan.io/tx/39aQYVVfnThR7oCf1r8iSXd187CSrMCWp8Zs6uaGSPoZf96fVgAdXAv1eksv9zvkvGggHqDs9okaW2KMbf782rZG?cluster=devnet
