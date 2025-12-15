@@ -23,7 +23,7 @@
 
 ## sui
 
-* ~/.sui/sui_config/client.yaml
+* cat ~/.sui/sui_config/client.yaml
 
 ```
 active_address: "0x你的地址"
@@ -54,3 +54,8 @@ telemetry_enabled: false
 * sui client new-env --alias local --rpc http://127.0.0.1:9000
 * sui client switch --env localnet
 * sui client switch --env testnet
+* sui client active-env
+* sui move build
+* sui client publish
+* sui client call --package <PACKAGE_ID> --module greeting --function new
+* sui client object <OBJECT_ID>
