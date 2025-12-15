@@ -1,5 +1,6 @@
 # [WEB3](https://deelmind.com)
 
+* https://www.deelmind.com/
 * https://bilibili.deelmind.com
 * https://youtube.com/DeeLMind
 
