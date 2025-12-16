@@ -37,7 +37,8 @@
 * solana address
 * solana address -k keypair.json
 * cargo new project_name --lib
-* cargo build-sbf
+* cargo build-
+* cargo build-sbf --manifest-path=./program/Cargo.toml --sbf-out-dir=./program/target/
 * cargo test-sbf
 * solana program show Program_ID
 * solana program deploy taget.so
