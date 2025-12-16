@@ -8,3 +8,4 @@
 
 ## 智能合约
 
+* npm create ton@latest
