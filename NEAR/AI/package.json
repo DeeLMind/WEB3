@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@near-js/accounts": "^2.5.1",
+    "@near-js/providers": "^2.5.1",
+    "@near-js/signers": "^2.5.1",
+    "near-api-js": "^6.5.1"
+  }
+}
